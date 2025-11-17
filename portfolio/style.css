@@ -1,0 +1,156 @@
+.side {
+    float: left;
+    width: 35%;
+    padding: 20px;
+    background-color: rgb(50, 107, 109);
+    background-image: linear-gradient(rgb(50, 107, 109), rgb(23, 55, 56));
+    position: fixed;
+    height: 100%;
+}
+
+h1, h2 {
+    text-align: center;
+    background-color: rgb(248, 232, 179);
+    padding: 10px;
+    margin: 20px;
+    color: rgb(37, 78, 80);
+}
+
+h1 {
+    border-color: rgb(23, 55, 56);
+    border-style: double;
+    border-width: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 0%;
+    border-bottom-style: hidden;
+    border-color: rgb(23, 55, 56);
+    border-top-style: double;
+    border-width: 12px;
+}
+
+p {
+    background-color: rgb(248, 232, 179);
+    padding: 10px;
+    margin: 20px;
+    margin-top: 0%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: rgb(37, 78, 80);
+    border-top-style: hidden;
+    border-color: rgb(23, 55, 56);
+    border-bottom-style: double;
+    border-width: 12px;
+    font-size: 23px;
+}
+
+p, h2 {
+    border-left-style: double;
+    border-right-style: double;
+}
+
+.main {
+    float: right;
+    width: 55%;
+    padding: 30px;
+    margin: 50px;
+    font-size: 30px;
+
+}
+
+p.mp, h2.mp {
+    width: 1000px;
+    border-style: hidden;
+    font-size: 30px;
+}
+
+body {
+    background-color: rgb(248, 232, 179);
+    color: rgb(37, 78, 80);
+}
+
+a {
+    color: rgb(50, 107, 109);
+    font-weight: bold;
+}
+
+.art {
+    background-color: rgb(37, 78, 80);
+    color: rgb(248, 232, 179);
+    padding: 20px;
+    width: 100%;
+    border: double;
+    border-color: rgb(23, 55, 56);
+    border-width: 12px;
+    text-align: center;
+}
+
+div.art {
+    width: fit-content;
+    float: left;
+    border-style: double;
+    background-color: rgb(37, 78, 80);
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+h2.mid, p.mid {
+    border-style: hidden;
+    text-align: center;
+    width: 21.5%;
+    float: left;
+    background-color: rgb(37, 78, 80);
+    padding: 20px;
+    color:rgb(248, 232, 179);
+}
+
+h2.top, p.top {
+    border-style: hidden;
+    text-align: center;
+    width: 90%;
+    background-color: rgb(37, 78, 80);
+    padding: 20px;
+    color:rgb(248, 232, 179);
+}
+
+img.right{
+    float: right;
+}
+
+img.left{
+    float: left;
+}
+
+img.mid {
+    float: center;
+}
+
+img {
+    border: double;
+    border-color: rgb(23, 55, 56);
+    border-width: 12px;
+}
+
+p.mid {
+    text-align: center;
+    width: 20%;
+}
+
+img.ix {
+    margin-left: 23%;
+}
+
+p.midLong {
+    margin-top: 3%;
+    text-align: center;
+    border-style: hidden;
+    text-align: center;
+    width: 90%;
+    float: left;
+    background-color: rgb(37, 78, 80);
+    padding: 20px;
+    color:rgb(248, 232, 179);
+}
